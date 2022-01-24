@@ -10,7 +10,7 @@ a = 20;
 
 console.log ("After 'a' has been updated" + c);
 
-const c = a + b;
+ c = a + b;
 
 console.log ("After 'c' has been updated to use the new 'a' value" + c);
 
@@ -28,8 +28,8 @@ function conversation() {
 
 
 function futureAge(name , age){
-    const answer= y + 5; 
-    return "Hi" + x + "your future age is" + answer; 
+    const answer = age + 5; 
+    return "Hi" + name + "your future age is" + answer; 
 }
 
  console.log (futureAge ("Emma", 22));

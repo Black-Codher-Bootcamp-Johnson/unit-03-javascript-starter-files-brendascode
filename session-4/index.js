@@ -101,8 +101,25 @@ console.log(' Am I old enough to drive? ' + amIeligibleToDrive);
 
 
 
+//exercise homework
 
+function calculator (x,y){
+    const addNumbers = x + y;
+    const subNumbers = x - y;
+    const multNumbers = x * y;
+    const divNumbers = x / y; 
+}
+console.log (addnumbers (244, 22));
 
+function whoisOlder(personA, personD)
+
+    if (personA > personD) {
+        return personA.name + is the oldest person
+    }
+    else {
+        return personD.name is the oldest person
+    }
+//
 
 
 

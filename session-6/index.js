@@ -7,7 +7,7 @@ let counter = 0;
 while (counter <= 10) {
     randomNumber = Math.round(Math.random() * 10);
     counter= counter + 1;
-    console.log(randomNumber);
+     console.log(randomNumber);
 }
 
 
@@ -21,8 +21,15 @@ while (counter <= 10) {
 
 
 
-// ****************************************************TASK 2****************************************************
 
+// ****************************************************TASK 2****************************************************
+console.log("=======================");
+
+
+for (let counter = 1; counter <= 10; counter ++) {
+    randomNumber = Math.round(Math.random() * 10);
+    console.log(randomNumber);
+}
 
 
 

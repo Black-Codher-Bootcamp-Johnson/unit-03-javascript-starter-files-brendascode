@@ -1,10 +1,26 @@
 // ****************************************************TASK 1****************************************************
 
+const animals= ['cat', 'dog', 'wolf', 'lion', 'eagle', 'zebra'];
 
 
 
+animals.pop();
+
+console.log(animals);
 
 
+
+//array methods: push, unshift,pop
+
+
+//extremely helpful useful property, it helps
+//when i want to do something with every 
+//in array 
+//for (let index =0; index < animal.length; 
+//index++){const animal = animals[index]
+//console.log(animal);}}
+//this is therefore not time consuming, do this 
+//rather than console.log(animals[2]);
 
 
 
